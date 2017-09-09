@@ -65,11 +65,21 @@ function cool(updateFunction) {
 }
 
 function makeDessert() {
+<<<<<<< HEAD
   if(this.parentNode.id === "cake") {
     makeCake.call(this.parentNode)
   } else {
     makePie.call(this.parentNode)
   }
+=======
+  //add code here to decide which make... function to call
+  //based on which link was clicked
+  // if cake {
+  //   makeCake
+  // } else {
+  //   makePie
+  // }
+>>>>>>> 5242fea616f9909255528dfcba7504a4fb48b838
 }
 
 function serve(message, customer) {
